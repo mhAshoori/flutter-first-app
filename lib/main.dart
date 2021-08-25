@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
           "My First App",
         ),
         centerTitle: true,
-        backgroundColor: Colors.deepOrange[300],
+        backgroundColor: Colors.blueAccent[600],
       ),
       body: Center(
         child: Text(
