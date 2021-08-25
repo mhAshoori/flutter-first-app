@@ -11,7 +11,7 @@ void main() => runApp(MaterialApp(
         ),
         body: Center(
           child: Text(
-            'My Name is BluBeast!',
+            'My Name is RedArmy!',
             style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
@@ -25,7 +25,7 @@ void main() => runApp(MaterialApp(
         floatingActionButton: FloatingActionButton(
           onPressed: () => {},
           backgroundColor: Colors.indigo,
-          child: Text('Click'),
+          child: Text('Blink'),
         ),
       ),
     ));
