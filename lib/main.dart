@@ -18,17 +18,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blueAccent[600],
       ),
       body: Center(
-        child: Text(
-          'My Name is Mammad!',
-          style: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-              color: Colors.blue[500],
-              fontFamily: 'IndieFlower'
-          ),
-
-        ),
+        child: Image.network('https://picsum.photos/400/600'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => {},
